@@ -1,0 +1,20 @@
+{
+    "name": "sokil/structure",
+    "description": "Different algorithms and data structures",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dmytro Sokil",
+            "email": "dmytro.sokil@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "3.7.37"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sokil\\Structure\\": "src/"
+        }
+    }
+}
