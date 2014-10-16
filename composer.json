@@ -1,5 +1,5 @@
 {
-    "name": "sokil/structure",
+    "name": "sokil/php-structure",
     "description": "Different algorithms and data structures",
     "minimum-stability": "stable",
     "license": "MIT",

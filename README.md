@@ -10,7 +10,7 @@ Add this lines to your composer.json:
 ```
 {
     require: {
-        "sokil/structure": "dev-master"
+        "sokil/php-structure": "dev-master"
     }
 }
 ```
