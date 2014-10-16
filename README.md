@@ -7,9 +7,9 @@ Installation
 ------------
 
 Add this lines to your composer.json:
-```
+```javascript
 {
-    require: {
+    "require": {
         "sokil/php-structure": "dev-master"
     }
 }
