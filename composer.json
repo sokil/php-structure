@@ -1,6 +1,6 @@
 {
-    "name": "sokil/php-structure",
-    "description": "Different algorithms and data structures",
+    "name": "sokil/php-tree",
+    "description": "Implementation of different trees",
     "minimum-stability": "stable",
     "license": "MIT",
     "authors": [
