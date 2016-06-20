@@ -1,7 +1,7 @@
-php-structure
+php-tree
 =============
 
-Data structures and algorithms in PHP
+Tree data structures PHP
 
 Installation
 ------------
@@ -10,7 +10,7 @@ Add this lines to your composer.json:
 ```javascript
 {
     "require": {
-        "sokil/php-structure": "dev-master"
+        "sokil/php-tree": "dev-master"
     }
 }
 ```
