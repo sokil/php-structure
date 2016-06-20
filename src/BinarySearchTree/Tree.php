@@ -1,20 +1,18 @@
 <?php
 
-namespace Sokil\Structure;
+namespace Sokil\DataStructure\Tree\BinarySearchTree;
 
-use Sokil\Structure\BinarySearchTree\Node;
-
-class BinarySearchTree
+class Tree
 {
     /**
-     * @var \Sokil\Structure\BinarySearchTree\Node
+     * @var Node
      */
     private $_rootNode;
 
     /**
      * @param $value
      * @param null $metadata
-     * @return \Sokil\Structure\BinarySearchTree
+     * @return Tree
      */
     public function add($value, $metadata = null)
     {
@@ -29,7 +27,7 @@ class BinarySearchTree
 
     /**
      * @param $value
-     * @return null|\Sokil\Structure\BinarySearchTree\Node
+     * @return null|Node
      */
     public function find($value)
     {
@@ -53,7 +51,7 @@ class BinarySearchTree
      * Delete node
      *
      * @param $value
-     * @return \Sokil\Structure\BinarySearchTree
+     * @return Tree
      * @throws \Exception
      */
     public function delete($value)

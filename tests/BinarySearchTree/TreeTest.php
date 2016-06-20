@@ -1,6 +1,6 @@
 <?php
 
-namespace Sokil\Structure;
+namespace Sokil\DataStructure\Tree\BinarySearchTree;
 
 /**
  *  Binary Search Tree structure
@@ -13,16 +13,16 @@ namespace Sokil\Structure;
  *    /       /  \   \
  *   10      40  44   99
  */
-class BinarySearchTreeTest extends \PHPUnit_Framework_TestCase
+class TreeTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * @var \Sokil\Structure\BinarySearchTree
+     * @var Tree
      */
     private $binaryTree;
     
     public function setUp()
     {
-        $this->binaryTree = new BinarySearchTree();
+        $this->binaryTree = new Tree();
         $this->binaryTree->add(16, 'ROOT');
         $this->binaryTree->add(45, 'A');
         $this->binaryTree->add(43, 'B');
@@ -65,7 +65,7 @@ class BinarySearchTreeTest extends \PHPUnit_Framework_TestCase
 
     public function testFind_NoNodesAdded()
     {
-        $binaryTree = new BinarySearchTree;
+        $binaryTree = new Tree;
         $this->assertNull($binaryTree->find(42));
     }
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Sokil\Structure\BinarySearchTree;
+namespace Sokil\DataStructure\Tree\BinarySearchTree;
 
 class Node
 {
@@ -12,17 +12,17 @@ class Node
     private $_metadata;
 
     /**
-     * @var \Sokil\Structure\BinarySearchTree\Node
+     * @var Node
      */
     private $_parentNode = null;
 
     /**
-     * @var \Sokil\Structure\BinarySearchTree\Node
+     * @var Node
      */
     private $_leftNode;
 
     /**
-     * @var \Sokil\Structure\BinarySearchTree\Node
+     * @var \Node
      */
     private $_rightNode;
 
@@ -111,7 +111,7 @@ class Node
      * Find node by value through child nodes
      *
      * @param $value
-     * @return null|\Sokil\Structure\BinarySearchTree\Node
+     * @return null|Node
      */
     public function findRecursive($value)
     {
